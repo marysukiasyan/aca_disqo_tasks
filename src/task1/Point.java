@@ -33,7 +33,15 @@ public class Point {
         double hypotenuseLength = Math.sqrt(Math.pow(firstLeg, 2) + Math.pow(secondLeg, 2
         ));
         return hypotenuseLength;
+    }
 
-    } 
+    public double distance(Point secondPoint){
+        double firstLeg = abs((getX()-secondPoint.getX()));
+        double secondLeg = abs(getY() - secondPoint.getY());
+        double hypotenuseLength = Math.sqrt(Math.pow(firstLeg, 2) + Math.pow(secondLeg, 2
+        ));
+        return hypotenuseLength;
+
+    }
 
 }
