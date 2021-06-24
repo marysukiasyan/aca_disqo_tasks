@@ -1,4 +1,4 @@
-package com.company;
+package testings;
 
 import task1.Point;
 
